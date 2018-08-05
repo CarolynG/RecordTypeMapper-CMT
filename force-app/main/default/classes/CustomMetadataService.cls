@@ -8,14 +8,24 @@ public with sharing class CustomMetadataService {
     //Update the org-level custom setting
     //Returns the original value
     public Boolean updateMapperEnablementRecord(Boolean newValue) {
-        //FeatureSettings__c enablementRecord = [Select Id, FeatureEnabled__c from FeatureSettings__c LIMIT 1];
-        //Boolean originalValue = enablementRecord.FeatureEnabled__c;
-        
-        //enablementRecord.FeatureEnabled__c = newValue;
-        //update enablementRecord;
+        Boolean originalValue = getMapperEnablementRecord().FeatureEnabled__c;
 
-        //return originalValue;
-        return true;
+        Metadata.DeployContainer container = new Metadata.DeployContainer();
+        List<Metadata.Metadata> records = Metadata.Operations.retrieve(Metadata.MetadataType.CustomMetadata, 
+                                          new List<String>{'FeatureSettingsCMT.EnableItPlease'});
+        if (records.size() > 0) {
+            Metadata.CustomMetadata recordToUpdate = (Metadata.CustomMetadata) records.get(0);
+            //update the FeatureEnabled__c field
+            for (Metadata.CustomMetadataValue fieldAndValue : recordToUpdate.values) {
+                if (fieldAndValue.field == 'FeatureEnabled__c') {
+                    fieldAndValue.value = newValue;
+                }
+            }            
+            container.addMetadata(recordToUpdate);
+            Id asyncResultId = Metadata.Operations.enqueueDeployment(container, null); //could add callback in 2nd param
+            System.debug('Updating feature enabled, async id is: ' + asyncResultId);
+        }
+        return originalValue;        
     }
 
     //Return a record that shows which record type name to use for the given countryCode

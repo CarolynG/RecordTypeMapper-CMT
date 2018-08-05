@@ -1,0 +1,2 @@
+CustomMetadataService cmts = new CustomMetadataService();
+cmts.updateMapperEnablementRecord(true);

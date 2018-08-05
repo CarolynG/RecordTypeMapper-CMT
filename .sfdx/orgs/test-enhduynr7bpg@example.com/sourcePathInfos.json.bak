@@ -66,11 +66,11 @@
             "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/classes",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 512,
-            "modifiedTime": 1533495806339,
-            "changeTime": 1533495806339,
+            "size": 448,
+            "modifiedTime": 1533495867667,
+            "changeTime": 1533495867667,
             "isWorkspace": false,
-            "contentHash": "e452d5146eeea25fb743e0c467e16f54f829fac5"
+            "contentHash": "d5e574f17abbfb3efabeea2a2fc9293635d1d87e"
         }
     ],
     [
@@ -154,36 +154,6 @@
             "modifiedTime": 1533344246945,
             "changeTime": 1533427960464,
             "contentHash": "6f8bf820ea0f310d7167f09030d283e0c98b946e",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/classes/PostInstallScript.cls",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/classes/PostInstallScript.cls",
-            "isDirectory": false,
-            "size": 11076,
-            "modifiedTime": 1533427264150,
-            "changeTime": 1533427960464,
-            "contentHash": "1df43fe6902fe30be838c64f6707ca07509f3467",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/classes/PostInstallScript.cls-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/classes/PostInstallScript.cls-meta.xml",
-            "isDirectory": false,
-            "size": 195,
-            "modifiedTime": 1533347310189,
-            "changeTime": 1533427960453,
-            "contentHash": "ef1b72d11b6462a3f9eda8be2942ee041bd0f703",
             "isMetadataFile": true,
             "state": "u",
             "isWorkspace": false,
@@ -6131,16 +6101,15 @@
     [
         "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects",
         {
+            "state": "u",
             "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects",
             "isDirectory": true,
-            "size": 224,
-            "modifiedTime": 1533430861803,
-            "changeTime": 1533430861803,
-            "contentHash": "b274bd7fe1333429e2842a0ce744e216825976d0",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 160,
+            "modifiedTime": 1533495838131,
+            "changeTime": 1533495838131,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "1d3973622e32a37a38676e5d9cb50f3d47b7a4d9"
         }
     ],
     [
@@ -6197,66 +6166,6 @@
             "modifiedTime": 1533431220725,
             "changeTime": 1533431220725,
             "contentHash": "c6ca38b3eb0a10f349de8127c1bfb93db873c6eb",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c",
-            "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1533406423010,
-            "changeTime": 1533427960472,
-            "contentHash": "bbc178e831b311d71981a7728e0bb10d33da89a3",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/FeatureSettings__c.object-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/FeatureSettings__c.object-meta.xml",
-            "isDirectory": false,
-            "size": 281,
-            "modifiedTime": 1533406615796,
-            "changeTime": 1533427960471,
-            "contentHash": "a58411df27511677ce74a7d59a02c6af2ec9eb88",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/fields",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/fields",
-            "isDirectory": true,
-            "size": 96,
-            "modifiedTime": 1533405949920,
-            "changeTime": 1533427960472,
-            "contentHash": "0a5eefe302c032f31b5578b2c250ecb8d84fd1c2",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/fields/FeatureEnabled__c.field-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/FeatureSettings__c/fields/FeatureEnabled__c.field-meta.xml",
-            "isDirectory": false,
-            "size": 334,
-            "modifiedTime": 1533405955062,
-            "changeTime": 1533427960472,
-            "contentHash": "b2d900e809e30bf7915c4dc46dc20ab9939e9f29",
             "isMetadataFile": true,
             "state": "u",
             "isWorkspace": false,
@@ -6557,96 +6466,6 @@
             "modifiedTime": 1533431220722,
             "changeTime": 1533431220722,
             "contentHash": "e3e478df775fc40685d550a4e3616fbc3a59093d",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c",
-            "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1533405817035,
-            "changeTime": 1533427960484,
-            "contentHash": "fe75100c0215e164f361eeabbe1f73f131032a7b",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/RecordTypeMapping__c.object-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/RecordTypeMapping__c.object-meta.xml",
-            "isDirectory": false,
-            "size": 278,
-            "modifiedTime": 1533405817034,
-            "changeTime": 1533427960481,
-            "contentHash": "24736fad9b3065db34c4fee58e97d289c0bb5fe7",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields",
-            "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1533406262001,
-            "changeTime": 1533427960484,
-            "contentHash": "340431811339c2ba3ee6d09ae584d74f2cf28572",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/CountryCode__c.field-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/CountryCode__c.field-meta.xml",
-            "isDirectory": false,
-            "size": 519,
-            "modifiedTime": 1533254315028,
-            "changeTime": 1533427960483,
-            "contentHash": "f654b3fd2902598c09944538c9332e69688d480b",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/Industry__c.field-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/Industry__c.field-meta.xml",
-            "isDirectory": false,
-            "size": 549,
-            "modifiedTime": 1533254315028,
-            "changeTime": 1533427960483,
-            "contentHash": "1d051f57e1a0bd34000acdcd21d563d01f2ed908",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/RecordTypeName__c.field-meta.xml",
-        {
-            "sourcePath": "/Users/cgrabill/Debugging/Forcelandia18/custommetadatatypes/force-app/main/default/objects/RecordTypeMapping__c/fields/RecordTypeName__c.field-meta.xml",
-            "isDirectory": false,
-            "size": 738,
-            "modifiedTime": 1533406262000,
-            "changeTime": 1533427960484,
-            "contentHash": "f9235b1f6c9a7704954447b63ca3df88c68f1791",
             "isMetadataFile": true,
             "state": "u",
             "isWorkspace": false,
