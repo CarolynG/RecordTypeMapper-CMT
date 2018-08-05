@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Map1</label>
+    <protected>false</protected>
+    <values>
+        <field>Entity__c</field>
+        <value xsi:type="xsd:string">Lead</value>
+    </values>
+    <values>
+        <field>Field1__c</field>
+        <value xsi:type="xsd:string">Company</value>
+    </values>
+    <values>
+        <field>Field2__c</field>
+        <value xsi:type="xsd:string">Email</value>
+    </values>
+    <values>
+        <field>TargetField__c</field>
+        <value xsi:type="xsd:string">Description</value>
+    </values>
+    <values>
+        <field>TargetValue__c</field>
+        <value xsi:type="xsd:string">This person must be Carolyn Grabill</value>
+    </values>
+    <values>
+        <field>Value1__c</field>
+        <value xsi:type="xsd:string">Salesforce</value>
+    </values>
+    <values>
+        <field>Value2__c</field>
+        <value xsi:type="xsd:string">cgrabill@salesforce.com</value>
+    </values>
+</CustomMetadata>
