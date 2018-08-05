@@ -17,12 +17,26 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Test_FeatureService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Test_MappingService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Test_TriggerRecordTypeMapping</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
     <layoutAssignments>
+        <layout>FeatureSettingsCMT__mdt-FeatureSettingsType Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RecordTypeMappingCMT__mdt-RecordTypeMappingCMT Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
