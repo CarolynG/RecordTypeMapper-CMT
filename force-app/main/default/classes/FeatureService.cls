@@ -1,16 +1,16 @@
 public with sharing class FeatureService {
 
-    CustomSettingsService customSettings;
+    CustomMetadataService cmts;
 
     public FeatureService() {
-        this.customSettings = new CustomSettingsService();
+        this.cmts = new CustomMetadataService();
     }
 
     public boolean isFeatureEnabled() {
-        return this.customSettings.getMapperEnablementRecord().FeatureEnabled__c;
+        return this.cmts.getMapperEnablementRecord().FeatureEnabled__c;
     }
 
     public boolean setEnabled(Boolean newValue) {
-        return this.customSettings.updateMapperEnablementRecord(newValue);
+        return this.cmts.updateMapperEnablementRecord(newValue);
     }
 }

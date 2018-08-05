@@ -1,13 +1,13 @@
 public with sharing class MappingService {
     
-    CustomSettingsService customSettings;
+    CustomMetadataService cmts;
 
     public MappingService() {
-        this.customSettings = new CustomSettingsService();
+        this.cmts = new CustomMetadataService();
     }
 
     public String getRecordTypeName(String countryCode, String industry) {
-        RecordTypeMapping__c mapping = this.customSettings.getRecordTypeMappingping(countryCode, industry);
+        RecordTypeMappingCMT__mdt mapping = this.cmts.getRecordTypeMapping(countryCode, industry);
         if (mapping != null) {
             return mapping.RecordTypeName__c;
         } else {
