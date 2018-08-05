@@ -3,6 +3,6 @@
     <fullName>RecordTypeMapper_reqd_fields</fullName>
     <active>true</active>
     <description>Enforces that CountryCode and Industry fields are populated on new Leads when RecordTypeMapper tries to assign record type.</description>
-    <errorConditionFormula>$Setup.FeatureSettings__c.FeatureEnabled__c &amp;&amp; ( ISBLANK(TEXT(CountryCode)) || ISBLANK(TEXT(Industry)) )</errorConditionFormula>
+    <errorConditionFormula>$CustomMetadata.FeatureSettingsCMT__mdt.EnableItPlease.FeatureEnabled__c  &amp;&amp; ( ISBLANK(TEXT(CountryCode)) || ISBLANK(TEXT(Industry)) )</errorConditionFormula>
     <errorMessage>To set Record Type correctly, Country and Industry fields are required for new Leads</errorMessage>
 </ValidationRule>
